@@ -1,0 +1,87 @@
+header{
+    height:100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+.header_container{
+    text-align: center;
+    height:100%;
+    position: relative;
+}
+/* cta */
+.cta{
+    margin: 2.5rem;
+    display: flex;
+    gap:1.2rem;
+    justify-content: center;
+}
+/* socials */
+.header_socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.8rem;
+    position: absolute;
+    left:0;
+    bottom: 3rem;
+}
+.header_socials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+/* profile photo */
+.me{
+    width: 21rem;
+    height: 19rem;
+    left: 34%;
+    position: absolute;
+    margin-top: 32px;
+}
+/* scroll down */
+.scroll_down{
+    position:absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+/* media query */
+@media screen and (max-width:1024px){
+   header{
+    height: 68vh;
+   }
+   .me {
+    width: 21rem;
+    height: 19rem;
+    left: 28%;
+    position: absolute;
+    margin-top: 32px;
+}
+    }
+    
+    @media screen and (max-width:600px){
+       header{
+        height: 100vh;
+       }
+       .header_socials,.scroll_down{
+        display: none;
+       }
+       .me {
+        width: 21rem;
+        height: 19rem;
+        left: 8%;
+        position: absolute;
+        margin-top: 32px;
+    }
+        }
+        
+    
