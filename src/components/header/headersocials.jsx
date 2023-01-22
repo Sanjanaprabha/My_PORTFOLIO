@@ -5,9 +5,9 @@ import {RiInstagramFill} from 'react-icons/ri'
 const HeaderSocials = () => {
   return (
     <div className='header_socials'>
-        <a href="http://linkedin.com" target="#_blank"><SiLinkedin size={25}/></a>
-        <a href="http://github.com" target="#_blank"><VscGithub size={25}/></a>
-        <a href="http://instagram.com" target="#_blank"><RiInstagramFill size={25}/></a>
+        <a href="https://www.linkedin.com/in/sanjana-prabha-692764220/" target="#_blank"><SiLinkedin size={25}/></a>
+        <a href="https://github.com/Sanjanaprabha" target="#_blank"><VscGithub size={25}/></a>
+        <a href="https://www.instagram.com/sanjanaprabha/?igshid=ZDdkNTZiNTM%3D" target="#_blank"><RiInstagramFill size={25}/></a>
     </div>
   )
 }

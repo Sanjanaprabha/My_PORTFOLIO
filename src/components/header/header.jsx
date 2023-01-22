@@ -15,9 +15,9 @@ const Header = () => {
         <CTA/>
         <HeaderSocials/>
          <div className="me">
-            <img src={Me} alt="me"/>
+            <img src={Me} alt="me" />
          </div>
-         <a href="#contact" className='scroll_down'><BsFillArrowRightCircleFill size={40}/></a>
+         <a href="#footer" className='scroll_down'><BsFillArrowRightCircleFill size={40}/></a>
       </div>
     </header>
   )

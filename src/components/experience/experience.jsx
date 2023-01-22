@@ -10,13 +10,22 @@ import {FaJava} from 'react-icons/fa'
 import {SiCplusplus} from 'react-icons/si'
 import {SiPython} from 'react-icons/si'
 import {GrMysql} from 'react-icons/gr'
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
-const experience = () => {
+const Experience = () => {
+  useEffect(()=>{
+    AOS.init({
+      duration:800,
+     
+    })
+   })
   return (
     <section id="experience">
       <h2>My skillset</h2>
       <div className="container experience__container">
-        <div className="experience__webd">
+        <div className="experience__webd" data-aos="fade-up">
           <h3>Web Development</h3>
           <div className="experience__content">
             <article className='experience__detail'>
@@ -42,7 +51,7 @@ const experience = () => {
             <article className='experience__detail'>
               <FaReact size={35}/><div>
               <h4>React Js</h4>
-              <small className='text-light'>intermediate</small>
+              <small className='text-light'>experienced</small>
               </div> </article>
             <article className='experience__detail'>
               <IoLogoNodejs size={35}/><div>
@@ -57,7 +66,7 @@ const experience = () => {
           </div>
         </div>
         {/* second half */}
-        <div className="experience_languages">
+        <div className="experience_languages" data-aos="fade-up">
            <h3>Other Languages</h3>
            <div className="experience__content">
            <article className='experience__detail'>
@@ -87,4 +96,4 @@ const experience = () => {
   )
 }
 
-export default experience 
+export default Experience 

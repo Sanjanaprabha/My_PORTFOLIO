@@ -25,6 +25,7 @@
     transition: var(--transition);
     width: 100%;
     height: 290px;
+    
 }
 .about__me-img:hover{
     transform: rotate(0);
@@ -58,6 +59,13 @@
 .about__card h5{
     font-size: 0.95rem;
 }
+img {
+    display: block;
+    width: 85%;
+    height: 21rem;
+    border-radius: 65px;
+    justify-content: center;
+}
 .about__card small{
     font-size: 0.7rem;
     color:var(--color-light);
@@ -71,12 +79,19 @@
     .about__container{
         grid-template-columns: 1fr;
     }
-    .about__me{
-        width:50%;
-        margin: 2 rem auto 4 rem;
+    .about__me {
+        width: 101%;
+        margin: 1rem auto 2rem;
     }
     .about__content{
-        margin: 1 rem auto 1.5 rem;
+        margin: 1rem auto 1.5rem;
+    }
+    img {
+        display: block;
+        width: 84%;
+        height: 19rem;
+        border-radius: 65px;
+        justify-content: center;
     }
      }
      
@@ -85,14 +100,21 @@
         grid-template-columns: 1fr 1fr;
         gap: 1 rem;
        }
-        .about__me{
-            width:50%;
-            margin: 0 rem auto 3 rem;
-        }
+       .about__me {
+        width: 101%;
+        margin: 1rem auto 2rem;
+    }
         .about__content{
           text-align: center;
         }
         .about__content p{
             margin: 1.5rem 0;
+        }
+        img {
+            display: block;
+            width: 68%;
+            height: 19rem;
+            border-radius: 65px;
+            justify-content: center;
         }
     }
