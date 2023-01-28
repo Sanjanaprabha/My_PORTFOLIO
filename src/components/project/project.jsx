@@ -5,6 +5,7 @@ import Img2 from '../../assets/pro2.jpeg'
 import Img4 from '../../assets/pro4.jpeg'
 import Img5 from '../../assets/pro5.jpeg'
 import Img6 from '../../assets/proC.png'
+import Img7 from '../../assets/pro6.jpeg'
 
 // import Swiper core and required modules
 import { Navigation, Pagination, Autoplay } from 'swiper';
@@ -29,6 +30,13 @@ const data =[
     disc:'This is a Virtual Dairy in which you can fill your entries and make a to-Do list, It is made using express JS, EJS.',
     gitLink:  "https://github.com/Sanjanaprabha/Dear-Dairy",
     weblink: ""
+  },
+  {
+    project: Img7,
+    name: 'Film Catch',
+    disc:'This is a Movie Website made using React JS and Material UI , I have used Movie DB API it shows trending Movie & series with user rating',
+    gitLink:  "https://github.com/Sanjanaprabha/movieWebsite_FilmCatch",
+    weblink: "https://film-catch.netlify.app/"
   },
   {
     project: Img5,
